@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: rgb(4, 5, 75);
+  padding: 5px;
+}
+.bot-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: rgb(4, 5, 75);
+  padding: 5px;
+}
+.bottom-navul {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.bottom-navul li {
+  list-style: none;
+}
+.bottom-navul a {
+  color: #e2e2e2;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+.logo {
+  color: rgb(226, 226, 226);
+}
+.logo a {
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
+.navs-link {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.navs-link li {
+  list-style: none;
+}
+.navs-link a {
+  color: #e2e2e2;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+.crudli {
+  position: relative;
+  align-items: center;
+}
+.crudli ul {
+  position: absolute;
+  background-color: #111;
+  color: #111;
+  margin-top: 10px;
+  padding: 0;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  opacity: 0;
+  cursor: default;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+.crudli li {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.crudli li:hover {
+  background-color: rgb(228, 10, 10);
+}
+.crudli button {
+  color: #e2e2e2;
+  background: none;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.navs-link a,
+.crudli button {
+  transition: 0.3s;
+}
+.crudli button:hover,
+.navs-link a:hover {
+  color: rgb(201, 160, 28);
+  border: none;
+}
+
+.crudli button:focus + ul {
+  opacity: 1;
+  pointer-events: default;
+  cursor: pointer;
+  z-index: 5;
+  color: #111;
+}
+.contain {
+  background: black;
+}
+.back {
+  position: relative;
+  width: 100%;
+  height: 585px;
+  opacity: 0.8;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+.logo-con {
+  position: absolute;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  right: 150px;
+  top: 190px;
+  transition: transform 0.2s;
+}
+.logo-con:hover {
+  transform: scale(1.2);
+}
+.teks-btn {
+  position: absolute;
+  flex: 1;
+  left: 50px;
+  z-index: 2;
+  top: 150px;
+  color: #e2e2e2;
+  text-shadow: 1px 1px #111;
+}
+.teks-btn h2 {
+  font-size: 50px;
+}
+.teks-btn p {
+  margin-top: 10px;
+}
+.button0 {
+  position: absolute;
+  background-color: white;
+  border: none;
+  color: #111;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid #800000;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  right: 165px;
+  top: 430px;
+}
+
+.button1 {
+  background-color: #800000;
+  color: white;
+}
+
+.button1:hover {
+  background-color: #111;
+  border: 2px solid #111;
+  color: rgb(201, 160, 28);
+}
+.active {
+  color: rgb(201, 160, 28);
+}
+.aboutimg {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  right: 485px;
+  top: 150px;
+}
+.aboutus {
+  font-family: "Nanum Gothic", sans-serif;
+  position: absolute;
+  top: 450px;
+  left: 570px;
+  font-size: 50px;
+  color: #000;
+}
+.isi {
+  color: #111;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 350px;
+}

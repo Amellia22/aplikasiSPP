@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("logo.jpg");
+  background-color: rgb(4, 5, 75);
+}
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  position: relative;
+}
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: rgb(4, 5, 75);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-left: 140px;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: rgb(66, 63, 63);
+}
+.bungkus {
+  margin-top: 40px;
+}
+
+.container {
+  position: absolute;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 400px;
+  height: 350px;
+  left: 50%;
+  top: 50%;
+}
+.logo {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.logo a {
+  text-decoration: none;
+  color: #111;
+  text-align: center;
+}

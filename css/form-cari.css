@@ -1,0 +1,38 @@
+form.cari input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  margin-top: 50px;
+  margin-left: 18rem;
+  width: 50%;
+  height: 20%;
+  background: #f1f1f1;
+}
+form.cari button {
+  width: 40px;
+  height: 44px;
+  padding: 5px;
+  background: rgb(4, 5, 75);
+  margin-top: 50px;
+  margin-right: 10px;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.icon {
+  margin-bottom: 20px;
+}
+
+form.cari button:hover {
+  background: #111;
+}
+
+form.cari::after {
+  content: "";
+  clear: both;
+  display: table;
+}

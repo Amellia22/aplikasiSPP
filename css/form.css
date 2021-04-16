@@ -1,0 +1,107 @@
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 4px 12px;
+  margin-left: 80px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label {
+  float: left;
+  color: #f2f2f2;
+  margin-top: 5px;
+}
+input[type="submit"] {
+  width: 20%;
+  background-color: black;
+  color: rgb(253, 253, 253);
+  text-size-adjust: 2px;
+  padding: 10px 16px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-top: 10px;
+  align-content: center;
+  margin-left: 150px;
+}
+
+input[type="submit"]:hover {
+  background-color: #111;
+  color: #f2f2f2;
+}
+
+.form {
+  position: relative;
+  border-radius: 10px;
+  background-color: rgb(4, 5, 75);
+  padding: 20px;
+  width: 400px;
+  height: 600px;
+  left: 400px;
+  top: 50px;
+  margin-bottom: 100px;
+}
+.formcrudk {
+  position: relative;
+  border-radius: 5px;
+  background-color: rgb(4, 5, 75);
+  color: white;
+  padding: 20px;
+  width: 400px;
+  height: 250px;
+  left: 420px;
+  top: 50px;
+  margin-bottom: 100px;
+}
+.foot {
+  margin-top: 100px;
+}
+.container {
+  padding-bottom: 50px;
+}
+.formin {
+  position: relative;
+  border-radius: 5px;
+  background-color: rgb(4, 5, 75);
+  color: white;
+  padding: 20px;
+  width: 400px;
+  height: auto;
+
+  left: 425px;
+  top: 50px;
+  margin-bottom: 100px;
+}
+.formid {
+  position: relative;
+  border-radius: 5px;
+  background-color: rgb(4, 5, 75);
+  padding: 20px;
+  width: 400px;
+  height: 500px;
+  left: 425px;
+  top: 10px;
+  margin-bottom: 100px;
+}
+.formpet {
+  position: relative;
+  border-radius: 5px;
+  background-color: rgb(4, 5, 75);
+  color: white;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  left: 420px;
+  top: 25px;
+  margin-bottom: 100px;
+}
+.jud-form {
+  color: #f2f2f2;
+}
+

@@ -1,0 +1,10 @@
+<?php
+$link = mysqli_connect("localhost", "root", "", "appspp");
+$id_petugas = $_POST['id_petugas'];
+$username = $_POST['username'];
+$password = $_POST['password'];
+$nama_petugas = $_POST['nama_petugas'];
+$level = $_POST['level'];
+$query_mysql = mysqli_query($link, "update petugas set username='$username', password='$password', nama_petugas='$nama_petugas', level='$level' where id_petugas='$id_petugas'");
+header("location:index.php");
+?>
